@@ -1,5 +1,7 @@
-CPAN Theme for MetaCPAN
+[CPAN Theme for MetaCPAN](https://addons.mozilla.org/firefox/addon/cpan-theme-for-metacpan/)
 =======================
+
+Firefox browser add-on that changes the layout of MetaCPAN so that it looks like classic CPAN.
 
 ## DESCRIPTION
 
@@ -30,14 +32,14 @@ search.cpan.org.
 
 Install this Add-on from Mozilla's Add-On repository:
 
- (link follows)
+[CPAN Theme for MetaCPAN](https://addons.mozilla.org/firefox/addon/cpan-theme-for-metacpan/)
 
 Or, as temporary add-on:
 
 Clone this repository. Then, in Firefox, open [about:debugging](about:debugging), click "Load a temporary
 Add-On" and select the manifest.json file inside this add-on's directory.
 
-You may also use web-ext to generate a self signed .xpi archive.
+You may also use web-ext to generate a self-signed .xpi archive.
 
 
 ## AUTHOR
