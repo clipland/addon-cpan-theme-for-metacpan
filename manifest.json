@@ -1,0 +1,30 @@
+{
+
+  "description": "Re-theme MetaCPAN so that it looks like good old CPAN",
+  "manifest_version": 2,
+  "name": "CPAN Theme for MetaCPAN",
+  "short_name": "cpan-theme-for-metacpan",
+  "version": "1.0",
+  "homepage_url": "https://github.com/clipland/addon-cpan-theme-for-metacpan/tree/master/cpan-theme",
+  "icons": {
+    "48": "icons/cpan-theme-48.png",
+    "90": "icons/cpan-theme-90.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://metacpan.org/*",
+        "*://*.metacpan.org/*"
+      ],
+      "js": ["cpan-theme.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "icons/cpan_banner.png",
+    "icons/cpan_up.gif",
+    "icons/cpan_favicon.ico"
+  ]
+
+}
